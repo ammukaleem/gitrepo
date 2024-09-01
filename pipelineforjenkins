@@ -1,8 +1,11 @@
 pipeline{
     agent any
-    stage('Build'){
-       steps{
+    stages {
+       stage('Build'){
+         steps{
             sh' echo"it is testing file"'
        }
     }
+  }
 }
+
