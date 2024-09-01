@@ -1,6 +1,8 @@
 pipeline{
     agent any
     stage('Build'){
-        sh' echo"it is testing file"'
+       steps{
+            sh' echo"it is testing file"'
+       }
     }
 }
