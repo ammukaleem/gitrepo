@@ -1,11 +1,10 @@
-pipeline{
-    agent any
-    stages {
-       stage('Build'){
-         steps{
-            sh' echo"it is testing file"'
-       }
-    }
-  }
+pipeline {
+	agent any
+	stages {
+		stage('Build') {
+			steps{
+				sh 'echo "Build completed."'
+			}
+		}
+	}
 }
-
